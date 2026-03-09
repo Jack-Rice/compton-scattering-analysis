@@ -1,10 +1,13 @@
 # Compton Scattering Data Analysis (Python)
 
 ## Project Overview
-This project analyses experimental gamma-ray scattering data to compare classical and relativistic models of photon–electron scattering. Using Python-based statistical analysis and curve fitting, the experiment evaluates how well the **Thomson** and **Klein–Nishina** theories describe the measured differential cross-sections.
+This project analyses experimental gamma-ray scattering data to verify the Compton effect and to compare classical and relativistic models of photon–electron scattering. Using Python-based statistical analysis and curve fitting, the experiment evaluates how well the **Thomson** and **Klein–Nishina** theories describe the measured differential cross-sections.
 
 The analysis demonstrates how data processing, statistical modelling, and uncertainty analysis can be used to evaluate competing theoretical models.
 
+![Photon Energies vs Scattering Angle](Figures/scattering_angle_curve.png)
+---
+![Differential Cross-Section](Figures/normalized_differential_cross-section_plot.png)
 ---
 
 ## Objectives
@@ -32,6 +35,8 @@ This allowed the extraction of:
 - Total counts under the Gaussian peak
 
 The Gaussian area was used to estimate the photon counts for each scattering angle.
+
+![Gaussian Fit Example](Figures/scattering_angle_gaussian_fit_example.png)
 
 ### 3. Statistical Analysis
 The analysis includes:
